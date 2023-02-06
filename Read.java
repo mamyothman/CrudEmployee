@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class Read {
+     // implement function for read Employeee
     public void readEmployee(Employee[] employees,Scanner scanner) {
         boolean isEmpty = true;
         for (Employee e : employees) {

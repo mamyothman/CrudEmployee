@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class Delete {
+    // implement function for delete Employeee
     public void deleteEmployee(Employee[] employees, Scanner scanner) {
         // Code to delete an employee from the array
         System.out.println("Enter the employee ID to delete: ");

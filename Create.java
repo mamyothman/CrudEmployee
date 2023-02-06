@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class Create {
+     // implement function for Create Employeee
     public void addEmployee(Employee[] employee, Scanner scanner) {
         // Code to add an employee to the array
         
@@ -17,7 +18,7 @@ public class Create {
 
            // Create a new Employee object with the input data
     Employee newEmployee = new Employee(name, id, position,salary);
-
+ 
     // Find the first empty index in the employees array
     int index = -1;
     for (int i = 0; i < employee.length; i++) {
@@ -36,4 +37,7 @@ public class Create {
     }
     
              }
+
+        
+
 }

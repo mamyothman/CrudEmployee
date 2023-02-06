@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class Update {
+     // implement function for update Employeee
     public void updateEmployee(Employee[] employees, Scanner scanner) {
         // Code to update an employee in the array
         System.out.println("Enter the ID of the employee you want to update: ");

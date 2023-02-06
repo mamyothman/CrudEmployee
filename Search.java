@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class Search {
+     // implement function for search Employeee
     public void searchEmployee(Employee[] employees, Scanner scanner) {
         // Code to search for an employee in the array
         System.out.println("Enter the employee ID to search for: ");
